@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="Inter, Arial, sans-serif">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <!-- Before -->
+  <text x="20" y="30" font-size="15" font-weight="700" fill="#263238">Normal input: "AMINA" fits in an 8-byte buffer</text>
+  <g font-size="14" font-weight="600" text-anchor="middle">
+    <rect x="20" y="45" width="400" height="50" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+    <text x="45" y="76" fill="#004d40">A</text><text x="95" y="76" fill="#004d40">M</text><text x="145" y="76" fill="#004d40">I</text><text x="195" y="76" fill="#004d40">N</text><text x="245" y="76" fill="#004d40">A</text>
+    <text x="295" y="76" fill="#90a4ae">·</text><text x="345" y="76" fill="#90a4ae">·</text><text x="395" y="76" fill="#90a4ae">·</text>
+    <rect x="430" y="45" width="270" height="50" rx="6" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+    <text x="565" y="68" fill="#263238">Adjacent memory</text>
+    <text x="565" y="86" font-size="12" font-weight="400" fill="#263238">e.g. where the program jumps next</text>
+  </g>
+  <g stroke="#00796b" stroke-width="1" stroke-dasharray="3 3">
+    <path d="M70,45 V95 M120,45 V95 M170,45 V95 M220,45 V95 M270,45 V95 M320,45 V95 M370,45 V95"/>
+  </g>
+  <text x="220" y="115" text-anchor="middle" font-size="13" fill="#004d40">buffer (8 bytes)</text>
+  <!-- After -->
+  <text x="20" y="160" font-size="15" font-weight="700" fill="#bf360c">Overflow: 14 bytes written into the same 8-byte buffer</text>
+  <g font-size="14" font-weight="600" text-anchor="middle">
+    <rect x="20" y="175" width="400" height="50" rx="6" fill="#ffccbc" stroke="#d84315" stroke-width="2"/>
+    <text x="45" y="206" fill="#bf360c">X</text><text x="95" y="206" fill="#bf360c">X</text><text x="145" y="206" fill="#bf360c">X</text><text x="195" y="206" fill="#bf360c">X</text><text x="245" y="206" fill="#bf360c">X</text><text x="295" y="206" fill="#bf360c">X</text><text x="345" y="206" fill="#bf360c">X</text><text x="395" y="206" fill="#bf360c">X</text>
+    <rect x="430" y="175" width="270" height="50" rx="6" fill="#fbe9e7" stroke="#d84315" stroke-width="3"/>
+    <text x="565" y="198" fill="#bf360c">Overwritten by excess data</text>
+    <text x="565" y="216" font-size="12" font-weight="400" fill="#bf360c">now points to the attacker's code</text>
+  </g>
+  <g stroke="#d84315" stroke-width="1" stroke-dasharray="3 3">
+    <path d="M70,175 V225 M120,175 V225 M170,175 V225 M220,175 V225 M270,175 V225 M320,175 V225 M370,175 V225"/>
+  </g>
+  <text x="220" y="245" text-anchor="middle" font-size="13" fill="#bf360c">buffer full</text>
+  <text x="565" y="245" text-anchor="middle" font-size="13" fill="#bf360c">6 excess bytes spill over</text>
+  <text x="360" y="280" text-anchor="middle" font-size="13" fill="#263238">The flaw: the program never checked the input length before copying it.</text>
+</svg>

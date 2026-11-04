@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 390" width="700" height="390" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#455a64"/>
+    </marker>
+  </defs>
+  <rect width="700" height="390" fill="#ffffff"/>
+  <g fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)">
+    <path d="M190,70 V148"/>
+    <path d="M190,190 V268"/>
+    <path d="M115,50 H60 V290 H113"/>
+    <path d="M265,45 H335 V148"/>
+    <path d="M485,55 H390 V148"/>
+    <path d="M560,70 V268"/>
+    <path d="M265,290 H335 V192"/>
+    <path d="M485,290 H390 V192"/>
+    <path d="M560,310 V350 H190 V312"/>
+  </g>
+  <g font-size="13" fill="#263238">
+    <text x="198" y="114">Impose</text>
+    <text x="198" y="234">To reduce</text>
+    <text x="48" y="170" transform="rotate(-90 48 170)" text-anchor="middle">Wish to minimize</text>
+    <text x="300" y="38" text-anchor="middle">Value</text>
+    <text x="396" y="78">Wish to abuse</text>
+    <text x="396" y="94">and/or</text>
+    <text x="396" y="110">may damage</text>
+    <text x="568" y="165">Give</text>
+    <text x="568" y="180">rise to</text>
+    <text x="300" y="283" text-anchor="middle">To</text>
+    <text x="440" y="283" text-anchor="middle">To</text>
+    <text x="375" y="368" text-anchor="middle">That increase</text>
+  </g>
+  <g font-size="15" font-weight="600" text-anchor="middle" fill="#263238">
+    <rect x="115" y="30" width="150" height="40" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+    <text x="190" y="55">Owners</text>
+    <rect x="115" y="150" width="150" height="40" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+    <text x="190" y="175">Countermeasures</text>
+    <rect x="115" y="270" width="150" height="40" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+    <text x="190" y="295">Risk</text>
+    <rect x="300" y="150" width="120" height="40" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+    <text x="360" y="175">Assets</text>
+    <rect x="485" y="30" width="150" height="40" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+    <text x="560" y="55">Threat agents</text>
+    <rect x="485" y="270" width="150" height="40" rx="10" fill="#ffccbc" stroke="#d84315" stroke-width="2"/>
+    <text x="560" y="295">Threats</text>
+  </g>
+</svg>

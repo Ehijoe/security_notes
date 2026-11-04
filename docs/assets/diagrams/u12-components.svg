@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" width="780" height="440" font-family="Inter, Arial, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker>
+<marker id="ahs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#455a64"/></marker>
+</defs>
+<rect width="780" height="440" fill="#ffffff"/>
+<!-- sensors and agents -->
+<rect x="16" y="16" width="170" height="62" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="101" y="42" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Sensor</text>
+<text x="101" y="62" text-anchor="middle" font-size="13" fill="#263238">network segment</text>
+<rect x="208" y="16" width="170" height="62" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="293" y="42" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Sensor</text>
+<text x="293" y="62" text-anchor="middle" font-size="13" fill="#263238">another network</text>
+<rect x="400" y="16" width="170" height="62" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="485" y="42" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Agent</text>
+<text x="485" y="62" text-anchor="middle" font-size="13" fill="#263238">on a single host</text>
+<rect x="592" y="16" width="170" height="62" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="677" y="42" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Agent</text>
+<text x="677" y="62" text-anchor="middle" font-size="13" fill="#263238">on a single host</text>
+<text x="16" y="116" font-size="13" fill="#263238">monitor and analyze</text>
+<text x="16" y="134" font-size="13" fill="#263238">activity; report up</text>
+<path d="M101,78 L300,150" stroke="#455a64" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M293,78 L340,150" stroke="#455a64" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M485,78 L420,150" stroke="#455a64" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M677,78 L470,150" stroke="#455a64" stroke-width="2" marker-end="url(#ah)"/>
+<!-- management server -->
+<rect x="200" y="152" width="320" height="96" rx="10" fill="#37474f"/>
+<text x="360" y="178" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Management server</text>
+<text x="360" y="198" text-anchor="middle" font-size="13" fill="#ffffff">receives information, manages sensors/agents;</text>
+<text x="360" y="216" text-anchor="middle" font-size="13" fill="#ffffff">correlation: matches events from many sources</text>
+<text x="360" y="234" text-anchor="middle" font-size="13" fill="#ffffff">(e.g. same IP address)</text>
+<!-- database server -->
+<rect x="580" y="160" width="184" height="80" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="672" y="188" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Database server</text>
+<text x="672" y="208" text-anchor="middle" font-size="13" fill="#263238">repository for</text>
+<text x="672" y="226" text-anchor="middle" font-size="13" fill="#263238">event information</text>
+<path d="M522,200 H578" stroke="#455a64" stroke-width="2" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<!-- consoles -->
+<rect x="60" y="304" width="300" height="72" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="210" y="330" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Console (administration)</text>
+<text x="210" y="350" text-anchor="middle" font-size="13" fill="#263238">configure sensors or agents,</text>
+<text x="210" y="367" text-anchor="middle" font-size="13" fill="#263238">apply software updates</text>
+<rect x="400" y="304" width="300" height="72" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="550" y="330" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Console (monitoring)</text>
+<text x="550" y="350" text-anchor="middle" font-size="13" fill="#263238">monitoring and analysis</text>
+<text x="550" y="367" text-anchor="middle" font-size="13" fill="#263238">(some consoles do both)</text>
+<path d="M210,302 L320,250" stroke="#455a64" stroke-width="2" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<path d="M550,302 L400,250" stroke="#455a64" stroke-width="2" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<text x="390" y="410" text-anchor="middle" font-size="13" fill="#263238">Consoles: programs on standard desktops or laptops giving users and administrators an interface.</text>
+<text x="390" y="430" text-anchor="middle" font-size="13" fill="#263238">Small deployments may use no management server; large ones often have several, sometimes in tiers.</text>
+</svg>

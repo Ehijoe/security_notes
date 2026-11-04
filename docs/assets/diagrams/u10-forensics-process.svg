@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" font-family="Inter, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker></defs>
+<rect width="900" height="430" fill="#ffffff"/>
+<text x="450" y="30" font-size="15" font-weight="700" fill="#263238" text-anchor="middle">Digital forensics: the five activities named in §10.5</text>
+<rect x="20" y="50" width="150" height="56" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+<text x="95" y="84" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">1 Identification</text>
+<rect x="200" y="50" width="150" height="56" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+<text x="275" y="84" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">2 Collection</text>
+<rect x="380" y="50" width="150" height="56" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+<text x="455" y="84" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">3 Preservation</text>
+<rect x="560" y="50" width="150" height="56" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+<text x="635" y="84" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">4 Examination</text>
+<rect x="740" y="50" width="150" height="56" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+<text x="815" y="84" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">5 Analysis</text>
+<path d="M170,78 H198" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M350,78 H378" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M530,78 H558" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M710,78 H738" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<!-- site notes -->
+<text x="20" y="132" font-size="12" font-style="italic" fill="#455a64">What each involves in practice (site explanation, not in the courseware):</text>
+<rect x="20" y="142" width="150" height="104" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1"/>
+<text x="30" y="164" font-size="12" fill="#263238">Find where the</text>
+<text x="30" y="182" font-size="12" fill="#263238">evidence is: which</text>
+<text x="30" y="200" font-size="12" fill="#263238">drives, phones, logs,</text>
+<text x="30" y="218" font-size="12" fill="#263238">cloud accounts</text>
+<rect x="200" y="142" width="150" height="104" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1"/>
+<text x="210" y="164" font-size="12" fill="#263238">Make a forensic</text>
+<text x="210" y="182" font-size="12" fill="#263238">copy (image) with a</text>
+<text x="210" y="200" font-size="12" fill="#263238">write blocker; note</text>
+<text x="210" y="218" font-size="12" fill="#263238">who, when, how</text>
+<rect x="380" y="142" width="150" height="104" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1"/>
+<text x="390" y="164" font-size="12" fill="#263238">Record a hash of</text>
+<text x="390" y="182" font-size="12" fill="#263238">the image; store it</text>
+<text x="390" y="200" font-size="12" fill="#263238">securely; keep a</text>
+<text x="390" y="218" font-size="12" fill="#263238">chain of custody</text>
+<rect x="560" y="142" width="150" height="104" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1"/>
+<text x="570" y="164" font-size="12" fill="#263238">Search a working</text>
+<text x="570" y="182" font-size="12" fill="#263238">copy (never the</text>
+<text x="570" y="200" font-size="12" fill="#263238">original); recover</text>
+<text x="570" y="218" font-size="12" fill="#263238">deleted files</text>
+<rect x="740" y="142" width="150" height="104" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1"/>
+<text x="750" y="164" font-size="12" fill="#263238">Rebuild the timeline:</text>
+<text x="750" y="182" font-size="12" fill="#263238">who did what, when;</text>
+<text x="750" y="200" font-size="12" fill="#263238">write a report that</text>
+<text x="750" y="218" font-size="12" fill="#263238">others can check</text>
+<!-- care band -->
+<rect x="20" y="262" width="870" height="58" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="455" y="286" font-size="14" font-weight="700" fill="#bf360c" text-anchor="middle">Handle evidence carefully at every step (§10.5)</text>
+<text x="455" y="306" font-size="13" fill="#263238" text-anchor="middle">improper collection or alteration can affect its reliability and, depending on the jurisdiction, its admissibility</text>
+<!-- evidence chips -->
+<text x="20" y="346" font-size="13" font-weight="700" fill="#263238">Examples of digital evidence (§10.5):</text>
+<rect x="20" y="358" width="130" height="36" rx="10" fill="#cfd8dc" stroke="#455a64"/><text x="85" y="381" font-size="13" fill="#263238" text-anchor="middle">Emails</text>
+<rect x="166" y="358" width="130" height="36" rx="10" fill="#cfd8dc" stroke="#455a64"/><text x="231" y="381" font-size="13" fill="#263238" text-anchor="middle">Log files</text>
+<rect x="312" y="358" width="130" height="36" rx="10" fill="#cfd8dc" stroke="#455a64"/><text x="377" y="381" font-size="13" fill="#263238" text-anchor="middle">Hard-drive data</text>
+<rect x="458" y="358" width="140" height="36" rx="10" fill="#cfd8dc" stroke="#455a64"/><text x="528" y="381" font-size="13" fill="#263238" text-anchor="middle">Mobile-device data</text>
+<rect x="614" y="358" width="130" height="36" rx="10" fill="#cfd8dc" stroke="#455a64"/><text x="679" y="381" font-size="13" fill="#263238" text-anchor="middle">Network records</text>
+<rect x="760" y="358" width="130" height="36" rx="10" fill="#cfd8dc" stroke="#455a64"/><text x="825" y="381" font-size="13" fill="#263238" text-anchor="middle">Cloud records</text>
+<text x="450" y="418" font-size="12" font-style="italic" fill="#455a64" text-anchor="middle">Order of the five activities as listed in §10.5; drawn for this site</text>
+</svg>

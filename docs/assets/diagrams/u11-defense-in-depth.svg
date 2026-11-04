@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 390" width="850" height="390" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="u11a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#455a64"/>
+    </marker>
+  </defs>
+  <rect width="850" height="390" fill="#ffffff"/>
+  <text x="425" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#263238">Defense in depth: each layer enforces its own controls</text>
+  <!-- users -->
+  <rect x="10" y="160" width="90" height="56" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+  <text x="55" y="184" text-anchor="middle" font-size="14" font-weight="700" fill="#bf360c">Users and</text>
+  <text x="55" y="202" text-anchor="middle" font-size="14" font-weight="700" fill="#bf360c">attackers</text>
+  <path d="M100,188 H118" stroke="#455a64" stroke-width="2.5" marker-end="url(#u11a)"/>
+  <!-- web tier -->
+  <rect x="120" y="50" width="190" height="260" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+  <text x="215" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Web server</text>
+  <g font-size="13" fill="#263238">
+    <text x="134" y="112">• Network firewall</text>
+    <text x="134" y="136">• TLS for data in transit</text>
+    <text x="134" y="160">• Only needed ports open</text>
+    <text x="134" y="184">• Patched web software</text>
+  </g>
+  <path d="M310,188 H328" stroke="#455a64" stroke-width="2.5" marker-end="url(#u11a)"/>
+  <!-- app tier -->
+  <rect x="330" y="50" width="190" height="260" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+  <text x="425" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Application</text>
+  <g font-size="13" fill="#263238">
+    <text x="344" y="112">• MFA, strong passwords</text>
+    <text x="344" y="136">• RBAC, least privilege</text>
+    <text x="344" y="160">• Parameterized queries</text>
+    <text x="344" y="184">• Masked data in testing</text>
+  </g>
+  <path d="M520,188 H538" stroke="#455a64" stroke-width="2.5" marker-end="url(#u11a)"/>
+  <!-- db firewall -->
+  <rect x="540" y="120" width="82" height="136" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+  <text x="581" y="160" text-anchor="middle" font-size="14" font-weight="700" fill="#263238">Database</text>
+  <text x="581" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#263238">firewall</text>
+  <text x="581" y="206" text-anchor="middle" font-size="12" fill="#263238">blocks SQL</text>
+  <text x="581" y="222" text-anchor="middle" font-size="12" fill="#263238">injection</text>
+  <path d="M622,188 H638" stroke="#455a64" stroke-width="2.5" marker-end="url(#u11a)"/>
+  <!-- db tier -->
+  <rect x="640" y="50" width="200" height="260" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+  <text x="740" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Database server</text>
+  <g font-size="13" fill="#263238">
+    <text x="654" y="112">• Encryption at rest</text>
+    <text x="654" y="136">• Secure configuration</text>
+    <text x="654" y="160">• Activity monitoring</text>
+    <text x="654" y="184">• Regular patching</text>
+    <text x="654" y="208">• Backups kept separately</text>
+    <text x="654" y="232">• Locked server room</text>
+  </g>
+  <rect x="660" y="252" width="160" height="44" rx="10" fill="#37474f"/>
+  <text x="740" y="279" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Sensitive data</text>
+  <!-- separation band -->
+  <rect x="120" y="326" width="720" height="44" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+  <text x="480" y="353" text-anchor="middle" font-size="14" font-weight="700" fill="#263238">Separate servers: no physical server hosts both the application and the data</text>
+</svg>

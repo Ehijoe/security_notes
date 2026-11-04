@@ -1,0 +1,18 @@
+.venv/
+site/
+__pycache__/
+.claude/
+*.pdf
+pq*.jpg
+# sandbox placeholder files
+.bash_profile
+.bashrc
+.gitconfig
+.gitmodules
+.idea
+.mcp.json
+.profile
+.ripgreprc
+.vscode
+.zprofile
+.zshrc

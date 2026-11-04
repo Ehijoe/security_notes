@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440" width="860" height="440" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#455a64"/>
+    </marker>
+  </defs>
+  <rect width="860" height="440" fill="#ffffff"/>
+  <!-- inputs -->
+  <rect x="20" y="40" width="230" height="80" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="1.5"/>
+  <text x="135" y="72" font-size="15" font-weight="700" fill="#263238" text-anchor="middle">Workforce members</text>
+  <text x="135" y="96" font-size="13" fill="#263238" text-anchor="middle">(employees' behaviour)</text>
+  <rect x="20" y="150" width="230" height="80" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="1.5"/>
+  <text x="135" y="180" font-size="15" font-weight="700" fill="#263238" text-anchor="middle">Organisation's IT</text>
+  <text x="135" y="204" font-size="13" fill="#263238" text-anchor="middle">networks and applications</text>
+  <!-- centre -->
+  <rect x="320" y="40" width="250" height="190" rx="10" fill="#37474f" stroke="#263238" stroke-width="1.5"/>
+  <text x="445" y="72" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Information security</text>
+  <text x="445" y="92" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">policy (ISP)</text>
+  <text x="445" y="120" font-size="13" fill="#ffffff" text-anchor="middle">rules and processes;</text>
+  <text x="445" y="138" font-size="13" fill="#ffffff" text-anchor="middle">a standard for acceptable use</text>
+  <rect x="345" y="155" width="60" height="56" rx="8" fill="#fff8e1" stroke="#f9a825"/>
+  <text x="375" y="188" font-size="14" font-weight="700" fill="#263238" text-anchor="middle">WHO</text>
+  <rect x="415" y="155" width="60" height="56" rx="8" fill="#fff8e1" stroke="#f9a825"/>
+  <text x="445" y="188" font-size="14" font-weight="700" fill="#263238" text-anchor="middle">WHAT</text>
+  <rect x="485" y="155" width="60" height="56" rx="8" fill="#fff8e1" stroke="#f9a825"/>
+  <text x="515" y="188" font-size="14" font-weight="700" fill="#263238" text-anchor="middle">WHY</text>
+  <!-- outputs -->
+  <rect x="640" y="40" width="200" height="80" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+  <text x="740" y="72" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">Supports the</text>
+  <text x="740" y="94" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">CIA triad</text>
+  <rect x="640" y="150" width="200" height="80" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+  <text x="740" y="182" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">Overall security</text>
+  <text x="740" y="204" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">posture</text>
+  <g fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)">
+    <path d="M318,80 H252"/>
+    <path d="M318,190 H252"/>
+    <path d="M570,80 H638"/>
+    <path d="M570,190 H638"/>
+    <path d="M190,328 H228"/>
+    <path d="M520,328 H558"/>
+  </g>
+  <g font-size="13" fill="#263238">
+    <text x="284" y="72" text-anchor="middle">guides</text>
+    <text x="284" y="182" text-anchor="middle">governs</text>
+  </g>
+  <!-- objective -->
+  <text x="430" y="275" font-size="15" font-weight="700" fill="#263238" text-anchor="middle">The objective of the policy (§7.1)</text>
+  <rect x="20" y="290" width="170" height="80" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+  <text x="105" y="318" font-size="14" font-weight="700" fill="#004d40" text-anchor="middle">Identify</text>
+  <text x="105" y="338" font-size="13" fill="#004d40" text-anchor="middle">electronic information</text>
+  <text x="105" y="356" font-size="13" fill="#004d40" text-anchor="middle">assets</text>
+  <rect x="230" y="290" width="290" height="80" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+  <text x="375" y="315" font-size="14" font-weight="700" fill="#004d40" text-anchor="middle">Develop and implement</text>
+  <text x="375" y="337" font-size="13" fill="#004d40" text-anchor="middle">tools · techniques · policies ·</text>
+  <text x="375" y="356" font-size="13" fill="#004d40" text-anchor="middle">standards · procedures · guidelines</text>
+  <rect x="560" y="290" width="280" height="80" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="1.5"/>
+  <text x="700" y="318" font-size="14" font-weight="700" fill="#004d40" text-anchor="middle">Ensure confidentiality,</text>
+  <text x="700" y="338" font-size="14" font-weight="700" fill="#004d40" text-anchor="middle">integrity and availability</text>
+  <text x="700" y="356" font-size="13" fill="#004d40" text-anchor="middle">of information system assets</text>
+  <text x="430" y="410" font-size="13" fill="#455a64" text-anchor="middle" font-style="italic">Drawn for this site from the wording of §7.1 (the courseware has no figure).</text>
+</svg>

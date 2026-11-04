@@ -1,0 +1,12 @@
+/* SVG diagrams are drawn for a light background: give them a fixed white card in both themes. */
+.md-typeset img.diagram { display: block; margin: 1rem auto .3rem; max-width: 100%; height: auto; background: #fff;
+  border-radius: 8px; padding: .6rem; box-shadow: 0 0 0 1px var(--md-default-fg-color--lightest); }
+.md-typeset .caption { text-align: center; font-size: .8rem; color: var(--md-default-fg-color--light); margin-top: .2rem; }
+.md-typeset .mermaid { text-align: center; margin: 1rem 0; }
+.md-typeset .marks { float: right; font-weight: 600; color: var(--md-default-fg-color--light); font-size: .85em; }
+.md-typeset .src { font-size: .7rem; color: var(--md-default-fg-color--light); letter-spacing: .02em; }
+.md-typeset .outcomes li { margin-bottom: .2em; }
+.md-typeset table:not([class]) { font-size: .78rem; }
+.md-typeset blockquote { border-left-color: var(--md-primary-fg-color); }
+.exam-header { border: 2px solid var(--md-primary-fg-color); border-radius: 8px; padding: .6rem 1rem; margin: 1rem 0 1.5rem; }
+.exam-header p { margin: .3rem 0; }

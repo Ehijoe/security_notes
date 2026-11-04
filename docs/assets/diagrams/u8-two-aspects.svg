@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 410" width="780" height="410" font-family="Inter, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker></defs>
+<rect width="780" height="410" fill="#ffffff"/>
+<rect x="240" y="15" width="300" height="46" rx="10" fill="#37474f"/>
+<text x="390" y="44" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Access control security</text>
+<line x1="330" y1="61" x2="200" y2="93" stroke="#455a64" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="450" y1="61" x2="580" y2="93" stroke="#455a64" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="20" y="95" width="360" height="230" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="200" y="122" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">1. Physical access control</text>
+<text x="200" y="142" font-size="13" font-style="italic" fill="#004d40" text-anchor="middle">entry to physical locations</text>
+<text x="200" y="158" font-size="12" fill="#455a64" text-anchor="middle">(buildings, offices, restricted areas)</text>
+<text x="36" y="186" font-size="13" font-weight="700" fill="#263238">Tools:</text>
+<text x="36" y="204" font-size="13" fill="#263238">locks, biometric devices, keycards</text>
+<text x="36" y="230" font-size="13" font-weight="700" fill="#263238">A door access control system:</text>
+<text x="36" y="248" font-size="13" fill="#263238">smart card readers, biometric systems,</text>
+<text x="36" y="266" font-size="13" fill="#263238">or keypad locks</text>
+<text x="36" y="292" font-size="13" font-weight="700" fill="#263238">Integrated solutions (many access points):</text>
+<text x="36" y="310" font-size="13" fill="#263238">CCTV + alarms + door locking systems</text>
+<rect x="400" y="95" width="360" height="230" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="1.5"/>
+<text x="580" y="122" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">2. Technology/logical access control</text>
+<text x="580" y="142" font-size="13" font-style="italic" fill="#004d40" text-anchor="middle">connections to digital systems</text>
+<text x="580" y="158" font-size="12" fill="#455a64" text-anchor="middle">(the digital realm)</text>
+<text x="416" y="186" font-size="13" font-weight="700" fill="#263238">Manages:</text>
+<text x="416" y="204" font-size="13" fill="#263238">data access, applications, networks</text>
+<text x="416" y="230" font-size="13" font-weight="700" fill="#263238">Includes:</text>
+<text x="416" y="248" font-size="13" fill="#263238">user authentication systems,</text>
+<text x="416" y="266" font-size="13" fill="#263238">role-based permissions,</text>
+<text x="416" y="284" font-size="13" fill="#263238">cybersecurity measures</text>
+<line x1="200" y1="325" x2="300" y2="350" stroke="#455a64" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="580" y1="325" x2="480" y2="350" stroke="#455a64" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="170" y="352" width="440" height="44" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="390" y="380" font-size="14" font-weight="700" fill="#263238" text-anchor="middle">Combined: a robust framework for protecting assets</text>
+</svg>

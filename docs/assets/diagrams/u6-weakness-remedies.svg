@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="Inter, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker></defs>
+<rect width="900" height="500" fill="#ffffff"/>
+<text x="215" y="32" font-size="15" font-weight="700" fill="#bf360c" text-anchor="middle">Policy weakness (§7.4)</text>
+<text x="680" y="32" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">Components that fix it (§7.3)</text>
+<rect x="20" y="48" width="390" height="56" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="36" y="72" font-size="14" font-weight="700" fill="#bf360c">1. No written security policy</text>
+<text x="36" y="92" font-size="12" fill="#263238">security effort is best-effort, if at all</text>
+<path d="M410,76 H468" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="470" y="48" width="410" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="486" y="72" font-size="14" font-weight="700" fill="#004d40">Policy statement + roles and responsibilities</text>
+<text x="486" y="92" font-size="12" fill="#263238">write, adopt and enforce the ISP itself</text>
+<rect x="20" y="118" width="390" height="56" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="36" y="142" font-size="14" font-weight="700" fill="#bf360c">2. Lack of a disaster recovery plan</text>
+<text x="36" y="162" font-size="12" fill="#263238">staff improvise in a catastrophe</text>
+<path d="M410,146 H468" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="470" y="118" width="410" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="486" y="142" font-size="14" font-weight="700" fill="#004d40">Backups + incidence response</text>
+<text x="486" y="162" font-size="12" fill="#263238">(Unit 1: Contingency Planning)</text>
+<rect x="20" y="188" width="390" height="56" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="36" y="212" font-size="14" font-weight="700" fill="#bf360c">3. No policy for software/hardware changes</text>
+<text x="36" y="232" font-size="12" fill="#263238">rogue access points, password-stealing screensavers</text>
+<path d="M410,216 H468" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="470" y="188" width="410" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="486" y="212" font-size="14" font-weight="700" fill="#004d40">Change management + acceptable use</text>
+<text x="486" y="232" font-size="12" fill="#263238">also patching, server security (hardening)</text>
+<rect x="20" y="258" width="390" height="56" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="36" y="282" font-size="14" font-weight="700" fill="#bf360c">4. Lack of security monitoring</text>
+<text x="36" y="302" font-size="12" fill="#263238">losses go unnoticed</text>
+<path d="M410,286 H468" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="470" y="258" width="410" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="486" y="282" font-size="14" font-weight="700" fill="#004d40">Monitoring and auditing</text>
+<text x="486" y="302" font-size="12" fill="#263238">logs and processes reviewed; strong auditing</text>
+<rect x="20" y="328" width="390" height="56" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="36" y="352" font-size="14" font-weight="700" fill="#bf360c">5. Employment policies</text>
+<text x="36" y="372" font-size="12" fill="#263238">untested, under-skilled staff in authority</text>
+<path d="M410,356 H468" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="470" y="328" width="410" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="486" y="352" font-size="14" font-weight="700" fill="#004d40">Employee on/off boarding + roles</text>
+<text x="486" y="372" font-size="12" fill="#263238">(Unit 1: Awareness and Training, Personnel Security)</text>
+<rect x="20" y="398" width="390" height="56" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="36" y="422" font-size="14" font-weight="700" fill="#bf360c">6. Internal policies</text>
+<text x="36" y="442" font-size="12" fill="#263238">lax attitudes tempt the opportunist within</text>
+<path d="M410,426 H468" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="470" y="398" width="410" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="486" y="422" font-size="14" font-weight="700" fill="#004d40">Acceptable use + access control</text>
+<text x="486" y="442" font-size="12" fill="#263238">plus monitoring and auditing as a deterrent</text>
+<text x="450" y="488" font-size="12" fill="#455a64" font-style="italic" text-anchor="middle">The matching is this site's interpretation: the courseware lists the weaknesses and the components separately.</text>
+</svg>

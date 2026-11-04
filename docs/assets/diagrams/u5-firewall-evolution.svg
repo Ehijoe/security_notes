@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="920" height="440" font-family="Inter, Arial, sans-serif">
+  <rect width="920" height="440" fill="#ffffff"/>
+  <g font-size="16" font-weight="700" text-anchor="middle" fill="#263238">
+    <text x="120" y="30">First Generation</text>
+    <text x="345" y="30">Second Generation</text>
+    <text x="570" y="30">Third Generation</text>
+    <text x="795" y="30">Fourth Generation</text>
+  </g>
+  <g stroke="#00796b" stroke-width="2">
+    <polygon points="10,45 210,45 235,85 210,125 10,125" fill="#e0f2f1"/>
+    <polygon points="235,45 435,45 460,85 435,125 235,125 260,85" fill="#b2dfdb"/>
+    <polygon points="460,45 660,45 685,85 660,125 460,125 485,85" fill="#b2dfdb"/>
+    <polygon points="685,45 885,45 910,85 885,125 685,125 710,85" fill="#80cbc4"/>
+  </g>
+  <g font-size="15" font-weight="700" text-anchor="middle" fill="#004d40">
+    <text x="115" y="72">Packet Filters</text>
+    <text x="115" y="91">(or port-based</text>
+    <text x="115" y="110">firewalls)</text>
+    <text x="350" y="90">Stateful Firewall</text>
+    <text x="575" y="90">Stateful Firewall*</text>
+    <text x="800" y="80">Next Generation</text>
+    <text x="800" y="99">Firewall</text>
+  </g>
+  <g font-size="13" fill="#263238">
+    <text x="18" y="155">• Allows/blocks packets</text>
+    <text x="18" y="180">• Determines application</text>
+    <text x="28" y="196">protocol</text>
+    <text x="18" y="221">• No visibility into the</text>
+    <text x="28" y="237">payload</text>
+    <text x="18" y="262">• Not able to determine</text>
+    <text x="28" y="278">malicious code</text>
+
+    <text x="243" y="155">• Observes network</text>
+    <text x="253" y="171">connections acts on</text>
+    <text x="253" y="187">suspicious behavior</text>
+    <text x="243" y="212">• Cannot distinguish</text>
+    <text x="253" y="228">between websites and</text>
+    <text x="253" y="244">applications</text>
+    <text x="243" y="269">• Cannot block malicious</text>
+    <text x="253" y="285">packets if using</text>
+    <text x="253" y="301">acceptable protocols</text>
+
+    <text x="468" y="155">• Looks past ports and</text>
+    <text x="478" y="171">protocols to the</text>
+    <text x="478" y="187">application</text>
+    <text x="468" y="212">• Helps determine</text>
+    <text x="478" y="228">origination and</text>
+    <text x="478" y="244">destination of traffic</text>
+    <text x="468" y="269">• Not able to look inside</text>
+    <text x="478" y="285">the data payload</text>
+
+    <text x="693" y="155">• Includes all the data</text>
+    <text x="703" y="171">security controls from</text>
+    <text x="703" y="187">past generations</text>
+    <text x="693" y="212">• Adds Deep Packet</text>
+    <text x="703" y="228">Inspection (DPI)</text>
+    <text x="693" y="253">• Incorporates sandbox</text>
+    <text x="703" y="269">technology</text>
+    <text x="693" y="294">• Eliminates single point of</text>
+    <text x="703" y="310">entry into a network</text>
+    <text x="703" y="326">through segmentation</text>
+  </g>
+  <line x1="10" y1="355" x2="910" y2="355" stroke="#455a64" stroke-width="3"/>
+  <g fill="#455a64">
+    <circle cx="120" cy="355" r="6"/>
+    <circle cx="457" cy="355" r="6"/>
+    <circle cx="795" cy="355" r="6"/>
+  </g>
+  <g font-size="15" font-weight="700" text-anchor="middle" fill="#263238">
+    <text x="120" y="382">1989</text>
+    <text x="457" y="382">Early 2000s</text>
+    <text x="795" y="382">2010+</text>
+  </g>
+  <rect x="10" y="400" width="900" height="30" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+  <text x="460" y="420" font-size="13" text-anchor="middle" fill="#263238">* As printed in the courseware figure. The text (§6.5) calls the third generation proxy firewalls / application-level gateways.</text>
+</svg>

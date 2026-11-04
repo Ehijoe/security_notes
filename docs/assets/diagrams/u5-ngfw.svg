@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330" font-family="Inter, Arial, sans-serif">
+  <rect width="820" height="330" fill="#ffffff"/>
+  <text x="20" y="32" font-size="18" font-weight="700" fill="#263238">Next-Generation Firewall (NGFW)</text>
+  <g stroke-width="2">
+    <rect x="20" y="50" width="780" height="80" rx="10" fill="#eceff1" stroke="none"/>
+    <rect x="20" y="145" width="780" height="80" rx="10" fill="#eceff1" stroke="none"/>
+    <rect x="20" y="240" width="780" height="80" rx="10" fill="#eceff1" stroke="none"/>
+    <rect x="20" y="50" width="300" height="80" rx="10" fill="#e0f2f1" stroke="#00796b"/>
+    <rect x="20" y="145" width="300" height="80" rx="10" fill="#b2dfdb" stroke="#00796b"/>
+    <rect x="20" y="240" width="300" height="80" rx="10" fill="#80cbc4" stroke="#00796b"/>
+  </g>
+  <g font-size="15" font-weight="700" fill="#004d40">
+    <text x="38" y="86">Controls applications by</text>
+    <text x="38" y="106">classification or users.</text>
+    <text x="38" y="181">Adopts various</text>
+    <text x="38" y="201">segmentation approaches.</text>
+    <text x="38" y="276">Has moved from</text>
+    <text x="38" y="296">reactive to proactive.</text>
+  </g>
+  <g fill="none" stroke="#00796b" stroke-width="3">
+    <circle cx="360" cy="90" r="18"/>
+    <circle cx="360" cy="185" r="18"/>
+    <circle cx="360" cy="280" r="18"/>
+    <path d="M351,90 l6,7 l12,-14"/>
+    <path d="M351,185 l6,7 l12,-14"/>
+    <path d="M351,280 l6,7 l12,-14"/>
+  </g>
+  <g font-size="14" fill="#263238">
+    <text x="400" y="86">Helps protect web-browsing clients</text>
+    <text x="400" y="104">from attacks and threats.</text>
+    <text x="400" y="172">Segregates users, devices, and</text>
+    <text x="400" y="190">applications that are aligned</text>
+    <text x="400" y="208">to business needs.</text>
+    <text x="640" y="181">Eliminates a single</text>
+    <text x="640" y="199">point of entry.</text>
+    <text x="400" y="285">Uses artificial intelligence to enforce security policies.</text>
+  </g>
+  <line x1="625" y1="160" x2="625" y2="212" stroke="#90a4ae" stroke-width="1.5"/>
+</svg>

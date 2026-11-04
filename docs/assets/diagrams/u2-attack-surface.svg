@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" width="720" height="490" font-family="Inter, Arial, sans-serif">
+<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker></defs>
+<rect width="720" height="490" fill="#ffffff"/>
+<g stroke="#d84315" stroke-width="2" fill="#fbe9e7">
+<rect x="15" y="15" width="220" height="175" rx="10"/>
+<rect x="250" y="15" width="220" height="175" rx="10"/>
+<rect x="485" y="15" width="220" height="175" rx="10"/>
+</g>
+<g font-size="15" font-weight="700" fill="#bf360c" text-anchor="middle">
+<text x="125" y="42">Network</text><text x="360" y="42">Software</text><text x="595" y="42">Human</text>
+<text x="125" y="61">attack surface</text><text x="360" y="61">attack surface</text><text x="595" y="61">attack surface</text>
+</g>
+<g font-size="13" fill="#263238">
+<text x="28" y="88">Enterprise network, WAN,</text>
+<text x="28" y="105">or the Internet:</text>
+<text x="28" y="126">• protocol flaws (e.g. DoS)</text>
+<text x="28" y="145">• disrupting comms links</text>
+<text x="28" y="164">• intruder attacks</text>
+<text x="263" y="88">Application, utility or</text>
+<text x="263" y="105">operating system code</text>
+<text x="263" y="126">• particular focus:</text>
+<text x="263" y="145">  Web server software</text>
+<text x="498" y="88">Personnel or outsiders:</text>
+<text x="498" y="109">• social engineering</text>
+<text x="498" y="128">• human error</text>
+<text x="498" y="147">• trusted insiders</text>
+</g>
+<line x1="125" y1="192" x2="290" y2="255" stroke="#455a64" stroke-width="2" marker-end="url(#ag)"/>
+<line x1="360" y1="192" x2="360" y2="253" stroke="#455a64" stroke-width="2" marker-end="url(#ag)"/>
+<line x1="595" y1="192" x2="430" y2="255" stroke="#455a64" stroke-width="2" marker-end="url(#ag)"/>
+<rect x="190" y="258" width="340" height="70" rx="10" fill="#37474f" stroke="#263238" stroke-width="2"/>
+<text x="360" y="287" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Attack surface of the system</text>
+<text x="360" y="310" text-anchor="middle" font-size="13" fill="#ffffff">reachable and exploitable vulnerabilities</text>
+<line x1="360" y1="330" x2="360" y2="358" stroke="#455a64" stroke-width="2" marker-end="url(#ag)"/>
+<rect x="60" y="362" width="600" height="116" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="360" y="386" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Attack surface analysis</text>
+<g font-size="13" fill="#263238">
+<text x="78" y="408">• assesses the scale and severity of threats to the system</text>
+<text x="78" y="428">• shows developers and analysts where security mechanisms are required</text>
+<text x="78" y="448">• lets designers make the surface smaller (harder for the adversary)</text>
+<text x="78" y="468">• sets priorities for testing, strengthening security measures, or modifying the service</text>
+</g>
+</svg>

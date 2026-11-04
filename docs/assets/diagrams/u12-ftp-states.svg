@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" width="780" height="360" font-family="Inter, Arial, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d84315"/></marker>
+</defs>
+<rect width="780" height="360" fill="#ffffff"/>
+<rect x="16" y="120" width="150" height="56" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="91" y="145" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">User starts</text>
+<text x="91" y="164" text-anchor="middle" font-size="13" fill="#263238">an FTP session</text>
+<path d="M166,148 H214" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="216" y="104" width="200" height="88" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="316" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Unauthenticated</text>
+<text x="316" y="154" text-anchor="middle" font-size="13" fill="#263238">expected: help information,</text>
+<text x="316" y="172" text-anchor="middle" font-size="13" fill="#263238">username and password</text>
+<path d="M416,148 H560" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="488" y="122" text-anchor="middle" font-size="13" fill="#263238">login request;</text>
+<text x="488" y="139" text-anchor="middle" font-size="13" fill="#263238">its response</text>
+<text x="488" y="170" text-anchor="middle" font-size="13" fill="#263238">status code = success</text>
+<rect x="562" y="104" width="200" height="88" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="662" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Authenticated</text>
+<text x="662" y="154" text-anchor="middle" font-size="13" fill="#263238">any of several dozen</text>
+<text x="662" y="172" text-anchor="middle" font-size="13" fill="#263238">commands: benign</text>
+<path d="M316,192 V250" stroke="#d84315" stroke-width="2.5" marker-end="url(#ah2)"/>
+<text x="326" y="226" font-size="13" fill="#bf360c">most other commands</text>
+<rect x="216" y="252" width="200" height="60" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+<text x="316" y="278" text-anchor="middle" font-size="15" font-weight="700" fill="#bf360c">Suspicious</text>
+<text x="316" y="297" text-anchor="middle" font-size="13" fill="#bf360c">deviation: alert</text>
+<text x="390" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">The same command can be suspicious in one state and benign in another</text>
+<text x="390" y="345" text-anchor="middle" font-size="13" fill="#263238">Pairing each request with its response lets the IDPS know which state the session is in.</text>
+</svg>

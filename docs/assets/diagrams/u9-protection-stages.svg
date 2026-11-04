@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" width="840" height="470" font-family="Inter, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker></defs>
+<rect width="840" height="470" fill="#ffffff"/>
+<rect x="20" y="14" width="800" height="46" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+<text x="420" y="43" text-anchor="middle" font-size="15" font-weight="700" fill="#bf360c">A suspicious file or process arrives on an endpoint</text>
+<path d="M30,92 H805" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="140" y="84" text-anchor="middle" font-size="13" fill="#263238">before the file runs</text>
+<text x="420" y="84" text-anchor="middle" font-size="13" fill="#263238">while it runs</text>
+<text x="700" y="84" text-anchor="middle" font-size="13" fill="#263238">after it has run</text>
+<rect x="20" y="104" width="250" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="145" y="130" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">1  Pre-execution</text>
+<text x="145" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">detection</text>
+<text x="34" y="180" font-size="13" font-weight="700" fill="#263238">How:</text>
+<text x="34" y="198" font-size="13" fill="#263238">scan files and processes against</text>
+<text x="34" y="215" font-size="13" fill="#263238">known threat signatures</text>
+<text x="34" y="245" font-size="13" font-weight="700" fill="#263238">Stops:</text>
+<text x="34" y="263" font-size="13" fill="#263238">known malware, immediately</text>
+<text x="34" y="293" font-size="13" font-weight="700" fill="#263238">Strength:</text>
+<text x="34" y="311" font-size="13" fill="#263238">fastest and most reliable layer for</text>
+<text x="34" y="328" font-size="13" fill="#263238">common, well-documented threats</text>
+<rect x="295" y="104" width="250" height="250" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="420" y="130" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">2  Runtime</text>
+<text x="420" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">detection</text>
+<text x="309" y="180" font-size="13" font-weight="700" fill="#263238">How:</text>
+<text x="309" y="198" font-size="13" fill="#263238">behavioral analysis and machine</text>
+<text x="309" y="215" font-size="13" fill="#263238">learning watch running processes</text>
+<text x="309" y="245" font-size="13" font-weight="700" fill="#263238">Catches what signatures miss:</text>
+<text x="309" y="263" font-size="13" fill="#263238">fileless malware, polymorphic code,</text>
+<text x="309" y="280" font-size="13" fill="#263238">living-off-the-land attacks</text>
+<text x="309" y="310" font-size="13" font-weight="700" fill="#263238">Extra:</text>
+<text x="309" y="328" font-size="13" fill="#263238">test suspicious files in isolation</text>
+<rect x="570" y="104" width="250" height="250" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+<text x="695" y="130" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">3  Post-execution</text>
+<text x="695" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">response</text>
+<text x="584" y="180" font-size="13" font-weight="700" fill="#263238">When:</text>
+<text x="584" y="198" font-size="13" fill="#263238">malicious behavior is confirmed</text>
+<text x="584" y="228" font-size="13" font-weight="700" fill="#263238">Automated actions (4):</text>
+<text x="584" y="246" font-size="13" fill="#263238">• isolate the endpoint</text>
+<text x="584" y="264" font-size="13" fill="#263238">• terminate the process</text>
+<text x="584" y="282" font-size="13" fill="#263238">• quarantine the file</text>
+<text x="584" y="300" font-size="13" fill="#263238">• roll back system changes</text>
+<text x="584" y="328" font-size="13" fill="#263238">no wait for manual review</text>
+<path d="M270,229 H293" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<path d="M545,229 H568" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="20" y="380" width="800" height="74" rx="10" fill="#37474f"/>
+<text x="420" y="408" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Layered approach</text>
+<text x="420" y="432" text-anchor="middle" font-size="13" fill="#ffffff">reduces the time between detection and containment; lowers reliance on manual intervention for every alert</text>
+</svg>

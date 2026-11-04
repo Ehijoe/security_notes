@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" width="780" height="420" font-family="Inter, Arial, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker>
+</defs>
+<rect width="780" height="420" fill="#ffffff"/>
+<rect x="250" y="16" width="280" height="56" rx="10" fill="#37474f"/>
+<text x="390" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">IPS detects a threat</text>
+<text x="390" y="60" text-anchor="middle" font-size="13" fill="#ffffff">and attempts to prevent it succeeding</text>
+<path d="M330,72 L140,110" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<path d="M390,72 V110" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<path d="M450,72 L640,110" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<!-- column 1 -->
+<rect x="16" y="112" width="240" height="60" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+<text x="136" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">1. Stops the attack</text>
+<text x="136" y="158" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">itself</text>
+<rect x="16" y="182" width="240" height="220" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="30" y="208" font-size="13" fill="#263238">• terminates the network</text>
+<text x="42" y="226" font-size="13" fill="#263238">connection used for the attack</text>
+<text x="30" y="252" font-size="13" fill="#263238">• blocks access to the target</text>
+<text x="42" y="270" font-size="13" fill="#263238">from the offending user</text>
+<text x="42" y="288" font-size="13" fill="#263238">account, IP address, or other</text>
+<text x="42" y="306" font-size="13" fill="#263238">attacker attribute</text>
+<text x="30" y="380" font-size="13" font-style="italic" fill="#004d40">acts on the attacker</text>
+<!-- column 2 -->
+<rect x="270" y="112" width="240" height="60" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+<text x="390" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">2. Changes the security</text>
+<text x="390" y="158" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">environment</text>
+<rect x="270" y="182" width="240" height="220" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="284" y="208" font-size="13" fill="#263238">• reconfigures a network</text>
+<text x="296" y="226" font-size="13" fill="#263238">firewall to block access from</text>
+<text x="296" y="244" font-size="13" fill="#263238">the attacker or to the target</text>
+<text x="284" y="270" font-size="13" fill="#263238">• alters a host-based firewall</text>
+<text x="296" y="288" font-size="13" fill="#263238">on the target</text>
+<text x="284" y="314" font-size="13" fill="#263238">• causes patches to be applied</text>
+<text x="296" y="332" font-size="13" fill="#263238">to a vulnerable host</text>
+<text x="284" y="380" font-size="13" font-style="italic" fill="#004d40">acts on other security controls</text>
+<!-- column 3 -->
+<rect x="524" y="112" width="240" height="60" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+<text x="644" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">3. Changes the attack's</text>
+<text x="644" y="158" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">content</text>
+<rect x="524" y="182" width="240" height="220" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="538" y="208" font-size="13" fill="#263238">• removes an infected email</text>
+<text x="550" y="226" font-size="13" fill="#263238">attachment, then lets the</text>
+<text x="550" y="244" font-size="13" fill="#263238">cleaned email through</text>
+<text x="538" y="270" font-size="13" fill="#263238">• acts as a proxy and normalizes</text>
+<text x="550" y="288" font-size="13" fill="#263238">requests (repackages payloads,</text>
+<text x="550" y="306" font-size="13" fill="#263238">discards header information)</text>
+<text x="538" y="380" font-size="13" font-style="italic" fill="#004d40">makes the attack benign</text>
+</svg>

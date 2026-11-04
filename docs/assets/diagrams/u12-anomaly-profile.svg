@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" width="780" height="420" font-family="Inter, Arial, sans-serif">
+<rect width="780" height="420" fill="#ffffff"/>
+<text x="390" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Web activity as a share of Internet-border bandwidth, one workday</text>
+<!-- axes -->
+<path d="M80,60 V340 H730" stroke="#455a64" stroke-width="2" fill="none"/>
+<g font-size="13" fill="#263238" text-anchor="end">
+<text x="72" y="344">0%</text>
+<text x="72" y="288">10%</text>
+<text x="72" y="232">20%</text>
+<text x="72" y="176">30%</text>
+<text x="72" y="120">40%</text>
+<text x="72" y="64">50%</text>
+</g>
+<g stroke="#eceff1" stroke-width="1">
+<path d="M80,284 H730"/><path d="M80,228 H730"/><path d="M80,172 H730"/><path d="M80,116 H730"/><path d="M80,60 H730"/>
+</g>
+<g font-size="13" fill="#263238" text-anchor="middle">
+<text x="80" y="360">08:00</text><text x="222" y="360">10:00</text><text x="364" y="360">12:00</text><text x="506" y="360">14:00</text><text x="648" y="360">16:00</text>
+</g>
+<!-- normal band from profile -->
+<path d="M80,267 H730" stroke="#00796b" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text x="726" y="286" text-anchor="end" font-size="13" font-weight="700" fill="#004d40">profile: average 13%</text>
+<!-- threshold -->
+<path d="M80,200 H730" stroke="#f9a825" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text x="90" y="192" font-size="13" font-weight="700" fill="#8d6e00">threshold (example value)</text>
+<!-- data -->
+<polyline points="80,278 151,267 222,262 293,273 364,256 435,267 506,273 577,116 648,127 719,262" fill="none" stroke="#455a64" stroke-width="2.5"/>
+<g fill="#455a64">
+<circle cx="80" cy="278" r="4"/><circle cx="151" cy="267" r="4"/><circle cx="222" cy="262" r="4"/><circle cx="293" cy="273" r="4"/><circle cx="364" cy="256" r="4"/><circle cx="435" cy="267" r="4"/><circle cx="506" cy="273" r="4"/><circle cx="719" cy="262" r="4"/>
+</g>
+<circle cx="577" cy="116" r="7" fill="#d84315"/><circle cx="648" cy="127" r="7" fill="#d84315"/>
+<rect x="390" y="58" width="190" height="44" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+<text x="485" y="77" text-anchor="middle" font-size="13" font-weight="700" fill="#bf360c">significant deviation</text>
+<text x="485" y="94" text-anchor="middle" font-size="13" fill="#bf360c">alert the administrator</text>
+<path d="M560,102 L572,110" stroke="#d84315" stroke-width="2"/>
+<text x="80" y="390" font-size="13" fill="#263238">Normal = the profile learned over a training period. The IDPS compares current activity with thresholds</text>
+<text x="80" y="408" font-size="13" fill="#263238">related to the profile using statistical methods; it does not need to know what the attack is.</text>
+</svg>

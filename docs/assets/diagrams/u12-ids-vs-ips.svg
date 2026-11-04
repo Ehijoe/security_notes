@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" font-family="Inter, Arial, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d84315"/></marker>
+</defs>
+<rect width="760" height="500" fill="#ffffff"/>
+<!-- Panel A: IDS -->
+<rect x="10" y="10" width="740" height="230" rx="10" fill="#fafafa" stroke="#cfd8dc" stroke-width="1.5"/>
+<text x="30" y="40" font-size="16" font-weight="700" fill="#004d40">IDS: monitors a copy of the traffic and reports</text>
+<rect x="30" y="66" width="120" height="56" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="90" y="99" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Internet</text>
+<rect x="200" y="66" width="120" height="56" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="260" y="99" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Firewall</text>
+<rect x="370" y="66" width="140" height="56" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="440" y="99" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Switch</text>
+<rect x="570" y="66" width="160" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="650" y="99" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Target servers</text>
+<path d="M150,94 H198" stroke="#d84315" stroke-width="2.5" marker-end="url(#ah2)"/>
+<path d="M320,94 H368" stroke="#d84315" stroke-width="2.5" marker-end="url(#ah2)"/>
+<path d="M510,94 H568" stroke="#d84315" stroke-width="2.5" marker-end="url(#ah2)"/>
+<text x="174" y="84" text-anchor="middle" font-size="13" fill="#bf360c">attack</text>
+<text x="540" y="84" text-anchor="middle" font-size="13" fill="#bf360c">reaches</text>
+<path d="M440,122 V178" stroke="#455a64" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#ah)"/>
+<text x="448" y="155" font-size="13" fill="#263238">copy of traffic</text>
+<rect x="370" y="180" width="140" height="48" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="440" y="210" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">IDS</text>
+<path d="M510,204 H568" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="570" y="176" width="160" height="56" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="650" y="200" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Log + alert</text>
+<text x="650" y="219" text-anchor="middle" font-size="13" fill="#263238">to security admins</text>
+<text x="30" y="160" font-size="13" fill="#263238">Detects and reports;</text>
+<text x="30" y="178" font-size="13" fill="#263238">people then start</text>
+<text x="30" y="196" font-size="13" fill="#263238">incident response.</text>
+<text x="30" y="214" font-size="13" fill="#bf360c">The attack is not stopped.</text>
+<!-- Panel B: IPS -->
+<rect x="10" y="256" width="740" height="234" rx="10" fill="#fafafa" stroke="#cfd8dc" stroke-width="1.5"/>
+<text x="30" y="286" font-size="16" font-weight="700" fill="#004d40">IPS: all IDS capabilities, plus it attempts to stop the attack</text>
+<rect x="30" y="312" width="120" height="56" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="90" y="345" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Internet</text>
+<rect x="200" y="312" width="120" height="56" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="260" y="345" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Firewall</text>
+<rect x="370" y="312" width="140" height="56" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+<text x="440" y="345" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">IPS (inline)</text>
+<rect x="570" y="312" width="160" height="56" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="650" y="345" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Target servers</text>
+<path d="M150,340 H198" stroke="#d84315" stroke-width="2.5" marker-end="url(#ah2)"/>
+<path d="M320,340 H368" stroke="#d84315" stroke-width="2.5" marker-end="url(#ah2)"/>
+<text x="174" y="330" text-anchor="middle" font-size="13" fill="#bf360c">attack</text>
+<path d="M510,340 H568" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="540" y="330" text-anchor="middle" font-size="13" fill="#263238">clean</text>
+<g stroke="#d84315" stroke-width="4" stroke-linecap="round"><path d="M520,380 L540,400"/><path d="M540,380 L520,400"/></g>
+<text x="550" y="396" font-size="13" font-weight="700" fill="#bf360c">attack blocked before the target</text>
+<path d="M420,368 C420,414 280,414 268,372" stroke="#455a64" stroke-width="2" stroke-dasharray="6,4" fill="none" marker-end="url(#ah)"/>
+<text x="250" y="426" font-size="13" fill="#263238">can reconfigure the firewall</text>
+<text x="30" y="450" font-size="13" fill="#263238">Responses: stop the attack itself · change the security environment · change the attack's content.</text>
+<text x="30" y="472" font-size="13" fill="#263238">Every packet passes through the IPS, so a fault or a false positive can block legitimate traffic.</text>
+</svg>

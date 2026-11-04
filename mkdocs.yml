@@ -1,0 +1,74 @@
+site_name: CSC 583 — Computer and Information Security
+site_url: https://example.github.io/csc583/
+site_description: Lecture notes, diagrams, quizzes and exam practice for CSC 583
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle: { icon: material/weather-night, name: Switch to dark mode }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle: { icon: material/weather-sunny, name: Switch to light mode }
+  font: { text: Inter, code: JetBrains Mono }
+  icon: { logo: material/school }
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.tabs.link
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc: { permalink: true, toc_depth: 3 }
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tabbed: { alternate_style: true }
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css: [stylesheets/extra.css, stylesheets/quiz.css]
+extra_javascript: [javascripts/quiz.js]
+
+nav:
+  - Home: index.md
+  - Units:
+      - "1. Computer security concepts": unit-1-security-concepts.md
+      - "2. Computer and network attacks": unit-2-attacks.md
+      - "3. Operating system security": unit-3-os-security.md
+      - "4. Cryptography": unit-4-cryptography.md
+      - "5. Firewalls": unit-5-firewalls.md
+      - "6. Information security policy": unit-6-security-policy.md
+      - "7. Wireless and mobile security": unit-7-wireless-mobile.md
+      - "8. Access control": unit-8-access-control.md
+      - "9. Malware protection": unit-9-malware.md
+      - "10. Ethical and legal issues": unit-10-ethics-legal.md
+      - "11. Database security": unit-11-database-security.md
+      - "12. Intrusion detection and prevention": unit-12-idps.md
+  - Exam Preparation:
+      - "Crash course": exam/crash-course.md
+      - "Exam technique": exam/exam-technique.md
+      - "Mock exam 1": exam/mock-exam-1.md
+      - "Mock exam 2": exam/mock-exam-2.md
+  - Glossary: glossary.md

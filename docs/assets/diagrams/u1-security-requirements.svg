@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 425" width="600" height="425" font-family="Inter, Arial, sans-serif">
+<rect width="600" height="425" fill="#ffffff"/>
+<polygon points="300.0,35.0 480.7,166.3 399.9,192.6 300.0,120.0" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="370.1" y="128.5" transform="rotate(36.0 370.1 128.5)" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#263238">Integrity</text>
+<polygon points="480.7,166.3 411.7,378.7 361.7,309.9 399.9,192.6" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+<text x="413.5" y="261.9" transform="rotate(-72.0 413.5 261.9)" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#263238">Authenticity</text>
+<polygon points="411.7,378.7 188.3,378.7 238.3,309.9 361.7,309.9" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="300.0" y="344.3" transform="rotate(0.0 300.0 344.3)" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#263238">Availability</text>
+<polygon points="188.3,378.7 119.3,166.3 200.1,192.6 238.3,309.9" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+<text x="186.5" y="261.9" transform="rotate(72.0 186.5 261.9)" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#263238">Accountability</text>
+<polygon points="119.3,166.3 300.0,35.0 300.0,120.0 200.1,192.6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="229.9" y="128.5" transform="rotate(-36.0 229.9 128.5)" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#263238">Confidentiality</text>
+<polygon points="300.0,120.0 399.9,192.6 361.7,309.9 238.3,309.9 200.1,192.6" fill="#37474f" stroke="#263238" stroke-width="2"/>
+<text x="300" y="215" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">Data</text>
+<text x="300" y="237" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">and</text>
+<text x="300" y="259" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">services</text>
+<rect x="120" y="396" width="16" height="16" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/><text x="142" y="409" font-size="13" fill="#263238">CIA triad</text>
+<rect x="250" y="396" width="16" height="16" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/><text x="272" y="409" font-size="13" fill="#263238">Added to the triad (authenticity, accountability)</text>
+</svg>

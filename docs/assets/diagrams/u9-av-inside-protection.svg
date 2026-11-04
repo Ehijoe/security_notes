@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" font-family="Inter, Arial, sans-serif">
+<rect width="820" height="440" fill="#ffffff"/>
+<rect x="20" y="16" width="780" height="408" rx="14" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="410" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#004d40">Malware protection: prevents, detects and responds</text>
+<text x="410" y="66" text-anchor="middle" font-size="13" fill="#263238">scope: endpoints, networks, cloud environments and user behavior</text>
+<rect x="44" y="88" width="230" height="150" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="159" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Antivirus software</text>
+<text x="58" y="142" font-size="13" fill="#263238">• signature-based detection</text>
+<text x="58" y="162" font-size="13" fill="#263238">• files on a single device</text>
+<text x="58" y="182" font-size="13" fill="#263238">• basic scanning, quarantine</text>
+<text x="58" y="202" font-size="13" fill="#263238">• known viruses, limited</text>
+<text x="70" y="220" font-size="13" fill="#263238">range of malware</text>
+<text x="159" y="262" text-anchor="middle" font-size="13" font-weight="700" fill="#455a64">one necessary layer, not the whole</text>
+<rect x="300" y="88" width="230" height="64" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="415" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Behavioral analysis</text>
+<text x="415" y="138" text-anchor="middle" font-size="13" fill="#263238">and machine learning</text>
+<rect x="550" y="88" width="230" height="64" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="665" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Threat intelligence</text>
+<text x="665" y="138" text-anchor="middle" font-size="13" fill="#263238">emerging patterns, IoCs</text>
+<rect x="300" y="170" width="230" height="64" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="415" y="198" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">EDR</text>
+<text x="415" y="220" text-anchor="middle" font-size="13" fill="#263238">endpoint monitoring, response</text>
+<rect x="550" y="170" width="230" height="64" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="665" y="198" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Sandboxing</text>
+<text x="665" y="220" text-anchor="middle" font-size="13" fill="#263238">observe suspicious files safely</text>
+<rect x="300" y="252" width="230" height="64" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="415" y="280" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Network traffic analysis</text>
+<text x="415" y="302" text-anchor="middle" font-size="13" fill="#263238">firewalls, IDPS, DNS filtering</text>
+<rect x="550" y="252" width="230" height="64" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="665" y="280" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Incident response</text>
+<text x="665" y="302" text-anchor="middle" font-size="13" fill="#263238">contain, eradicate, recover</text>
+<rect x="44" y="340" width="736" height="64" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+<text x="412" y="362" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">Response to new threats</text>
+<text x="412" y="381" text-anchor="middle" font-size="13" fill="#263238">antivirus: struggles against zero-day and fileless malware</text>
+<text x="412" y="398" text-anchor="middle" font-size="13" fill="#263238">malware protection: detects and contains threats that bypass signature-based tools</text>
+</svg>

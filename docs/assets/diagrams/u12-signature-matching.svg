@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" width="780" height="400" font-family="Inter, Arial, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker>
+</defs>
+<rect width="780" height="400" fill="#ffffff"/>
+<text x="150" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Observed event (one unit)</text>
+<text x="440" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Signature in the list</text>
+<text x="680" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Result</text>
+<!-- row 1 -->
+<rect x="16" y="46" width="270" height="64" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="30" y="72" font-size="13" fill="#263238">Telnet login attempt,</text>
+<text x="30" y="92" font-size="13" fill="#263238">username = "root"</text>
+<path d="M286,78 H322" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="324" y="46" width="232" height="64" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="338" y="72" font-size="13" fill="#004d40">telnet + username "root"</text>
+<text x="338" y="92" font-size="13" fill="#004d40">(policy violation)</text>
+<path d="M556,78 H592" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="594" y="52" width="170" height="52" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="679" y="83" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Match: alert</text>
+<!-- row 2 -->
+<rect x="16" y="126" width="270" height="64" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="30" y="152" font-size="13" fill="#263238">Email, subject "Free pictures!",</text>
+<text x="30" y="172" font-size="13" fill="#263238">attachment "freepics.exe"</text>
+<path d="M286,158 H322" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="324" y="126" width="232" height="64" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="338" y="152" font-size="13" fill="#004d40">"Free pictures!" + "freepics.exe"</text>
+<text x="338" y="172" font-size="13" fill="#004d40">(known form of malware)</text>
+<path d="M556,158 H592" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="594" y="132" width="170" height="52" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="679" y="163" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Match: alert</text>
+<!-- row 3 -->
+<rect x="16" y="206" width="270" height="64" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<text x="30" y="232" font-size="13" fill="#263238">OS log entry,</text>
+<text x="30" y="252" font-size="13" fill="#263238">status code value 645</text>
+<path d="M286,238 H322" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="324" y="206" width="232" height="64" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="338" y="232" font-size="13" fill="#004d40">status code 645</text>
+<text x="338" y="252" font-size="13" fill="#004d40">(host auditing disabled)</text>
+<path d="M556,238 H592" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="594" y="212" width="170" height="52" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="679" y="243" text-anchor="middle" font-size="15" font-weight="700" fill="#263238">Match: alert</text>
+<!-- row 4: the miss -->
+<rect x="16" y="296" width="270" height="64" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+<text x="30" y="322" font-size="13" fill="#bf360c">Same malware, renamed:</text>
+<text x="30" y="342" font-size="13" fill="#bf360c">attachment "freepics2.exe"</text>
+<path d="M286,328 H322" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="324" y="296" width="232" height="64" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="338" y="322" font-size="13" fill="#004d40">looking for "freepics.exe":</text>
+<text x="338" y="342" font-size="13" fill="#004d40">the strings differ</text>
+<path d="M556,328 H592" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="594" y="302" width="170" height="52" rx="10" fill="#ffccbc" stroke="#d84315" stroke-width="2"/>
+<text x="679" y="325" text-anchor="middle" font-size="15" font-weight="700" fill="#bf360c">No match:</text>
+<text x="679" y="344" text-anchor="middle" font-size="13" fill="#bf360c">variant is missed</text>
+<text x="390" y="388" text-anchor="middle" font-size="13" fill="#263238">Simple string comparison, one unit of activity at a time (a packet or a log entry); no memory of earlier events.</text>
+</svg>

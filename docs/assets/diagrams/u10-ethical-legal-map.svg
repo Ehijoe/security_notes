@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="Inter, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker></defs>
+<rect width="900" height="500" fill="#ffffff"/>
+<text x="185" y="32" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">Ethical issues (§10.2): right or wrong?</text>
+<text x="715" y="32" font-size="15" font-weight="700" fill="#bf360c" text-anchor="middle">Legal issues (§10.3): what the law says</text>
+<!-- left column -->
+<rect x="20" y="50" width="330" height="50" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="36" y="72" font-size="15" font-weight="700" fill="#004d40">Privacy (§10.2.1)</text>
+<text x="36" y="91" font-size="12" fill="#263238">don't use personal data for unrelated purposes</text>
+<rect x="20" y="114" width="330" height="50" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="36" y="136" font-size="15" font-weight="700" fill="#004d40">Confidentiality (§10.2.2)</text>
+<text x="36" y="155" font-size="12" fill="#263238">no unauthorized disclosure</text>
+<rect x="20" y="178" width="330" height="50" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="36" y="200" font-size="15" font-weight="700" fill="#004d40">Unauthorized access (§10.2.3)</text>
+<text x="36" y="219" font-size="12" fill="#263238">test only with authorization</text>
+<rect x="20" y="242" width="330" height="50" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="36" y="264" font-size="15" font-weight="700" fill="#004d40">Intellectual property (§10.2.4)</text>
+<text x="36" y="283" font-size="12" fill="#263238">no copying or use without permission</text>
+<rect x="20" y="306" width="330" height="50" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="36" y="328" font-size="15" font-weight="700" fill="#004d40">Responsible disclosure (§10.2.5)</text>
+<text x="36" y="347" font-size="12" fill="#263238">report it; don't exploit it</text>
+<rect x="20" y="370" width="330" height="50" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="36" y="392" font-size="15" font-weight="700" fill="#004d40">Professional responsibility (§10.2.6)</text>
+<text x="36" y="411" font-size="12" fill="#263238">seven duties; applies to everything</text>
+<!-- right column -->
+<rect x="550" y="50" width="330" height="50" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="566" y="72" font-size="15" font-weight="700" fill="#bf360c">Unauthorized access (§10.3.1)</text>
+<text x="566" y="91" font-size="12" fill="#263238">"testing security" is no excuse</text>
+<rect x="550" y="114" width="330" height="50" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="566" y="136" font-size="15" font-weight="700" fill="#bf360c">Data protection and privacy laws (§10.3.2)</text>
+<text x="566" y="155" font-size="12" fill="#263238">six duties of organizations</text>
+<rect x="550" y="178" width="330" height="50" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="566" y="200" font-size="15" font-weight="700" fill="#bf360c">Cybercrime (§10.3.3)</text>
+<text x="566" y="219" font-size="12" fill="#263238">seven example offences</text>
+<rect x="550" y="242" width="330" height="50" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="566" y="264" font-size="15" font-weight="700" fill="#bf360c">Copyright and software licensing (§10.3.4)</text>
+<text x="566" y="283" font-size="12" fill="#263238">five kinds of software licence</text>
+<rect x="550" y="306" width="330" height="50" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="566" y="328" font-size="15" font-weight="700" fill="#bf360c">Electronic fraud (§10.3.5)</text>
+<text x="566" y="347" font-size="12" fill="#263238">a form of computer-related fraud (cybercrime)</text>
+<!-- links -->
+<path d="M350,75 C450,75 450,139 548,139" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M350,139 H548" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M350,203 C450,203 450,75 548,75" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M350,267 H548" fill="none" stroke="#455a64" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M350,331 C450,331 450,203 548,203" fill="none" stroke="#455a64" stroke-width="1.8" stroke-dasharray="6,4" marker-end="url(#ah)"/>
+<text x="450" y="372" font-size="13" fill="#455a64" text-anchor="middle">dashed: exploiting the</text>
+<text x="450" y="388" font-size="13" fill="#455a64" text-anchor="middle">flaw instead = cybercrime</text>
+<!-- bottom band -->
+<rect x="20" y="440" width="860" height="46" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="450" y="460" font-size="14" font-weight="700" fill="#263238" text-anchor="middle">§10.7: ethics = right and wrong conduct; law = compliance with applicable laws</text>
+<text x="450" y="478" font-size="12" fill="#263238" text-anchor="middle">Something can be legal but ethically questionable, or violate both</text>
+</svg>

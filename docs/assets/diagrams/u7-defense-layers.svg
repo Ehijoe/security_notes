@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" font-family="Inter, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker><marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d84315"/></marker></defs>
+<rect width="760" height="600" fill="#ffffff"/>
+<rect x="170" y="16" width="420" height="58" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="2"/>
+<text x="380" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#bf360c">User or device asks to connect</text>
+<text x="380" y="60" text-anchor="middle" font-size="13" fill="#bf360c">over radio signals that anyone in range can pick up</text>
+<path d="M380,76 V94" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="110" y="96" width="540" height="70" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="130" y="120" font-size="15" font-weight="700" fill="#004d40">1  Encryption</text>
+<text x="130" y="140" font-size="13" fill="#263238">WPA2 or WPA3 scrambles data transfers:</text>
+<text x="130" y="157" font-size="13" fill="#263238">unreadable to unauthorized parties, even if intercepted</text>
+<path d="M380,166 V184" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="110" y="186" width="540" height="70" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="130" y="210" font-size="15" font-weight="700" fill="#004d40">2  Authentication</text>
+<text x="130" y="230" font-size="13" fill="#263238">users or devices verify their identities,</text>
+<text x="130" y="247" font-size="13" fill="#263238">usually via a password</text>
+<path d="M380,256 V274" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="110" y="276" width="540" height="70" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="130" y="300" font-size="15" font-weight="700" fill="#004d40">3  Access control rules</text>
+<text x="130" y="320" font-size="13" fill="#263238">who may access, and at what level: by user roles,</text>
+<text x="130" y="337" font-size="13" fill="#263238">device kinds and explicit access rights</text>
+<path d="M380,346 V364" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="110" y="366" width="540" height="70" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="130" y="390" font-size="15" font-weight="700" fill="#004d40">4  Device security</text>
+<text x="130" y="410" font-size="13" fill="#263238">antivirus software, updated operating systems,</text>
+<text x="130" y="427" font-size="13" fill="#263238">restricted use of administrator credentials</text>
+<path d="M380,436 V454" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="110" y="456" width="540" height="70" rx="10" fill="#80cbc4" stroke="#00796b" stroke-width="2"/>
+<text x="130" y="480" font-size="15" font-weight="700" fill="#004d40">5  IDPS and other tools</text>
+<text x="130" y="500" font-size="13" fill="#263238">monitor for unusual activity; detect and respond to unauthorized</text>
+<text x="130" y="517" font-size="13" fill="#263238">access attempts, malware infections and other threats in real time</text>
+<path d="M380,526 V544" stroke="#455a64" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="210" y="546" width="340" height="46" rx="10" fill="#37474f"/>
+<text x="380" y="575" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Protected wireless network</text>
+<path d="M680,96 H690 V522 H680" stroke="#00796b" stroke-width="2" fill="none"/>
+<text x="712" y="309.0" text-anchor="middle" font-size="14" font-weight="700" fill="#004d40" transform="rotate(90 712 309.0)">Layers of defense</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="Inter, Arial, sans-serif">
+<defs>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#455a64"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d84315"/></marker>
+</defs>
+<rect width="640" height="400" fill="#ffffff"/>
+<!-- cloud -->
+<g fill="#eceff1" stroke="#455a64" stroke-width="2">
+<ellipse cx="320" cy="290" rx="185" ry="68"/>
+</g>
+<text x="320" y="318" text-anchor="middle" font-size="15" fill="#263238">Internet or</text>
+<text x="320" y="337" text-anchor="middle" font-size="15" fill="#263238">another network</text>
+<!-- attacker -->
+<circle cx="320" cy="40" r="15" fill="#ffccbc" stroke="#d84315" stroke-width="2"/>
+<rect x="300" y="60" width="40" height="56" rx="10" fill="#ffccbc" stroke="#d84315" stroke-width="2"/>
+<text x="352" y="82" font-size="15" font-weight="700" fill="#bf360c">Attacker</text>
+<text x="352" y="100" font-size="13" fill="#bf360c">only monitors the channel</text>
+<!-- users -->
+<circle cx="70" cy="222" r="15" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<rect x="50" y="242" width="40" height="56" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="70" y="322" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">User A</text>
+<circle cx="570" cy="222" r="15" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<rect x="550" y="242" width="40" height="56" rx="10" fill="#b2dfdb" stroke="#00796b" stroke-width="2"/>
+<text x="570" y="322" text-anchor="middle" font-size="15" font-weight="700" fill="#004d40">User B</text>
+<!-- traffic -->
+<line x1="102" y1="258" x2="536" y2="258" stroke="#455a64" stroke-width="2.5" marker-end="url(#ag)"/>
+<line x1="536" y1="280" x2="102" y2="280" stroke="#455a64" stroke-width="2.5" marker-end="url(#ag)"/>
+<!-- eavesdropping -->
+<line x1="270" y1="254" x2="308" y2="124" stroke="#d84315" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#ao)"/>
+<line x1="372" y1="254" x2="332" y2="124" stroke="#d84315" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#ao)"/>
+<text x="270" y="190" text-anchor="end" font-size="13" fill="#bf360c">copies of the</text>
+<text x="270" y="206" text-anchor="end" font-size="13" fill="#bf360c">transmissions</text>
+<text x="380" y="190" font-size="13" fill="#bf360c">nothing is changed:</text>
+<text x="380" y="206" font-size="13" fill="#bf360c">A and B notice nothing</text>
+<text x="320" y="385" text-anchor="middle" font-size="13" fill="#455a64">Solid: messages between A and B (unchanged). Dashed: what the attacker learns.</text>
+</svg>

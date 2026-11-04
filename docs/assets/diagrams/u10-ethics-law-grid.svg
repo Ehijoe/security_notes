@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 520" width="910" height="520" font-family="Inter, Arial, sans-serif">
+<rect width="910" height="520" fill="#ffffff"/>
+<text x="525" y="30" font-size="15" font-weight="700" fill="#263238" text-anchor="middle">Is it legal? (compliance with applicable laws)</text>
+<text x="335" y="58" font-size="15" font-weight="700" fill="#455a64" text-anchor="middle">Legal</text>
+<text x="715" y="58" font-size="15" font-weight="700" fill="#455a64" text-anchor="middle">Illegal</text>
+<text x="40" y="270" font-size="15" font-weight="700" fill="#263238" text-anchor="middle" transform="rotate(-90 40 270)">Is it ethical? (right or wrong conduct)</text>
+<text x="105" y="170" font-size="15" font-weight="700" fill="#455a64" text-anchor="middle">Ethical</text>
+<text x="105" y="390" font-size="15" font-weight="700" fill="#455a64" text-anchor="middle">Unethical</text>
+<!-- top-left -->
+<rect x="150" y="70" width="370" height="200" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="1.5"/>
+<text x="335" y="98" font-size="15" font-weight="700" fill="#004d40" text-anchor="middle">Ethical and legal: the goal</text>
+<text x="170" y="128" font-size="13" fill="#263238">• Authorized penetration test within its scope</text>
+<text x="170" y="152" font-size="13" fill="#263238">• Reporting a flaw through the proper channel</text>
+<text x="170" y="176" font-size="13" fill="#263238">• Using software as its licence allows</text>
+<text x="170" y="200" font-size="13" fill="#263238">• Collecting only the data you need,</text>
+<text x="184" y="220" font-size="13" fill="#263238">with a legal basis</text>
+<!-- top-right -->
+<rect x="530" y="70" width="370" height="200" rx="10" fill="#cfd8dc" stroke="#455a64" stroke-width="1.5" stroke-dasharray="6,4"/>
+<text x="715" y="98" font-size="15" font-weight="700" fill="#263238" text-anchor="middle">"Good intentions" but illegal</text>
+<text x="550" y="128" font-size="13" fill="#263238">• "Testing security" of a system you</text>
+<text x="564" y="148" font-size="13" fill="#263238">have no authorization to test</text>
+<text x="550" y="176" font-size="13" fill="#263238">The courseware's answer: authorization</text>
+<text x="550" y="196" font-size="13" fill="#263238">is important (§10.3.1). Intent does not</text>
+<text x="550" y="216" font-size="13" fill="#263238">make it legal, and it breaks the ethical</text>
+<text x="550" y="236" font-size="13" fill="#263238">principle "obtain authorization" (§10.6).</text>
+<text x="550" y="258" font-size="12" font-style="italic" fill="#455a64">(quadrant added by this site)</text>
+<!-- bottom-left -->
+<rect x="150" y="280" width="370" height="200" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="335" y="308" font-size="15" font-weight="700" fill="#263238" text-anchor="middle">Legal but ethically questionable</text>
+<text x="170" y="338" font-size="13" fill="#263238">• Unnecessarily viewing a colleague's</text>
+<text x="184" y="358" font-size="13" fill="#263238">private files (§10.7 example)</text>
+<text x="170" y="386" font-size="13" fill="#263238">• Using customer data you hold</text>
+<text x="184" y="406" font-size="13" fill="#263238">legitimately for an unrelated purpose</text>
+<text x="170" y="434" font-size="13" fill="#263238">• Keeping quiet about a serious flaw</text>
+<text x="184" y="454" font-size="13" fill="#263238">you found, to avoid awkwardness</text>
+<!-- bottom-right -->
+<rect x="530" y="280" width="370" height="200" rx="10" fill="#fbe9e7" stroke="#d84315" stroke-width="1.5"/>
+<text x="715" y="308" font-size="15" font-weight="700" fill="#bf360c" text-anchor="middle">Violates both</text>
+<text x="550" y="338" font-size="13" fill="#263238">• Unauthorized access prohibited by</text>
+<text x="564" y="358" font-size="13" fill="#263238">applicable law (§10.7 example)</text>
+<text x="550" y="386" font-size="13" fill="#263238">• Software piracy</text>
+<text x="550" y="414" font-size="13" fill="#263238">• Phishing scams, identity theft</text>
+<text x="550" y="442" font-size="13" fill="#263238">• Exploiting a vulnerability for</text>
+<text x="564" y="462" font-size="13" fill="#263238">personal gain</text>
+<text x="525" y="508" font-size="12" font-style="italic" fill="#455a64" text-anchor="middle">Grid and examples drawn for this site from §10.2–§10.7</text>
+</svg>

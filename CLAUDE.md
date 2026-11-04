@@ -43,4 +43,4 @@ pdftotext -layout -f <first> -l <last> "CSC 583 Note3_052848.pdf" -
 
 ## Status
 - [x] Planning files  - [x] Scaffold  - [x] Unit 1 (reference unit)  - [x] Units 2–12 (all audited clean)
-- [x] Glossary (371 terms)  - [x] Exam technique, crash course, 2 mocks  - [x] Cross-unit links upgraded  - [x] Final audit (752 anchors, all clean)  - [x] Git init + first commit  - [ ] Student creates GitHub repo, pushes, sets `site_url` + README URL, enables Pages (Source: GitHub Actions)
+- [x] Glossary (371 terms)  - [x] Exam technique, crash course, 2 mocks  - [x] Cross-unit links upgraded  - [x] Final audit (752 anchors, all clean)  - [x] Git init + first commit  - [x] `site_url` set (https://www.josephalikah.com/security_notes/)  - [ ] Student creates GitHub repo `security_notes`, pushes, enables Pages (Source: GitHub Actions)
